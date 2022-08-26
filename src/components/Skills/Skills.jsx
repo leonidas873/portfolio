@@ -1,6 +1,5 @@
 import { Box } from "@mui/system";
-import { useEffect } from "react";
-import { useMemo, useState } from "react";
+import {  useState } from "react";
 import { Skill, SkillsContainer, Title, SkillsWrapper } from "./styles";
 import { motion } from "framer-motion";
 

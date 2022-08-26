@@ -1,6 +1,6 @@
-import { useEffect, useState, useRef, useMemo, useLayoutEffect } from "react";
+import { useEffect, useState } from "react";
 import { NavStyled, NavContent, NavItem, Dropdown, DropdownContent, DropDownItem } from "./styles.js";
-import { motion, AnimatePresence } from "framer-motion";
+import {  AnimatePresence } from "framer-motion";
 import {GiHamburgerMenu} from 'react-icons/gi';
 
 
