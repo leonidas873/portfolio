@@ -61,13 +61,13 @@ export default Projects;
 
 const ProjectButtonsComponent = ({el}) => {
 
-    const [blur, setBlur] = useState(false)
+    const [blur, setBlur] = useState('')
 
     return <Project blur={blur}>
-        <img src={el.img} alt="image"/>
+        <img src={el.img} alt="peoject"/>
         <ProjectButtons 
-    onMouseEnter={()=>setBlur(true)}
-    onMouseLeave={()=>setBlur(false)}
+    onMouseEnter={()=>setBlur('blur')}
+    onMouseLeave={()=>setBlur('')}
     blur={blur}
     >
     <a href={el.host}><BsPlayCircleFill/></a>

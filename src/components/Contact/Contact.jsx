@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 const Contact = () => {
   const success = () => toast("message sent");
   const error = () => toast("error");
-  console.log(process.env.REACT_APP_FORMIK_USER_ID)
+
   return (
     <Box
       sx={{
